@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: "Nunito";
+    transition: all 0.3s ease-out;
+   
+}
+
+body{
+    width: 900px;
+    height: 500px;
+    margin: 100px 200px 100px 250px;
+    padding: 10px;
+   display: flex;
+   align-content: center;
+   align-items: center;
+   background-color: black;
+}
+
+.box1{
+    border: none;
+    border-radius: 15px;
+    margin: 30px;
+    max-width: 300px;
+    background-color: white;
+    height:470px;
+    box-shadow: 0 6px 8px 0 rgba(231, 219, 219, 0.5);
+    transition: transform .2s;
+    }
+    .box1:hover{
+        transform: scale(0.8);
+    }
+   .box2{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+        margin: 30px;
+        max-width: 300px;
+        height:470px;
+        box-shadow: 0 6px 8px 0 rgba(231, 219, 219, 0.5);
+        transition: transform .2s;
+    }
+    .box2:hover{
+        transform: scale(1.2);
+        }
+        .box3{
+            border: none;
+    border-radius: 15px;
+    background-color: white;
+            margin: 30px;
+            max-width: 300px;
+            height:470px;
+            box-shadow: 0px 6px 8px 0 rgba(231, 219, 219, 0.5);
+            transition: transform .2s;
+        }
+        .box3:hover{
+            transform: scale(1.2);
+            }
+
+    .top{
+        height: 40%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .content{
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        /* margin: 5px;
+        padding: 10px; */
+    }
+    .head{
+        padding: 0 5px 5px 5px;
+        font-weight: bolder;
+        font-size: xx-large;
+        
+    }
+    .middle{
+        padding: 10px 10px 20px 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .bottom{
+       padding-top: 8px;
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+
+
+    @media only screen and (max-device-width: 480px) {
+             
+body{
+    width: 900px;
+    height: 1500px;
+    margin: 100px 200px 100px 250px;
+    padding: 10px;
+   display: grid;
+   align-content: center;
+   align-items: center;
+   background-color: black;
+}
+
+.box1{
+    border: none;
+    border-radius: 15px;
+    margin: 30px;
+    max-width: 300px;
+    background-color: white;
+    height:470px;
+    box-shadow: 0 6px 8px 0 rgba(231, 219, 219, 0.5);
+    transition: transform .2s;
+    }
+    .box1:hover{
+        transform: scale(0.8);
+    }
+   .box2{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+        margin: 30px;
+        max-width: 300px;
+        height:470px;
+        box-shadow: 0 6px 8px 0 rgba(231, 219, 219, 0.5);
+        transition: transform .2s;
+    }
+    .box2:hover{
+        transform: scale(1.2);
+        }
+        .box3{
+            border: none;
+    border-radius: 15px;
+    background-color: white;
+            margin: 30px;
+            max-width: 300px;
+            height:470px;
+            box-shadow: 0px 6px 8px 0 rgba(231, 219, 219, 0.5);
+            transition: transform .2s;
+        }
+        .box3:hover{
+            transform: scale(1.2);
+            }
+
+    .top{
+        height: 40%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .content{
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        /* margin: 5px;
+        padding: 10px; */
+    }
+    .head{
+        padding: 0 5px 5px 5px;
+        font-weight: bolder;
+        font-size: xx-large;
+        
+    }
+    .middle{
+        padding: 10px 10px 20px 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .bottom{
+       padding-top: 8px;
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+
+}
